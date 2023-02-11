@@ -1,5 +1,5 @@
 def like_black_jack(m: int, now_answer, card_list: list):
-    if len(card_list) < 3 and now_answer == m:
+    if len(card_list) < 3:
         return now_answer
 
     std_1 = card_list.pop(0)
